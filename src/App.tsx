@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { Home } from "./page/home/home";
+import { Home } from "./page/home";
 import { GlobalStyle } from "./styles/global";
 import { defaultTheme } from "./styles/themes/default";
 

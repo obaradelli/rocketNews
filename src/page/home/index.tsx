@@ -1,9 +1,9 @@
 import { DivContainer, SecondDivContainer } from "./styles";
 
-import logoRocketNews from "../../assets/logo.svg";
-import bgImage from "../../assets/read_news.jpg";
+import LogoRocketNews from "../../assets/logo.svg";
 import Send from "../../assets/send.svg";
-import arrowRight from "../../assets/arrow-right.svg";
+import ArrowRight from "../../assets/arrow-right.svg";
+import BgImage from "../../assets/read_news.jpg";
 
 export function Home() {
   return (
@@ -11,9 +11,9 @@ export function Home() {
       <SecondDivContainer>
         <div className="geral-box">
           <div>
-            <img className="header-img" src={logoRocketNews} />
+            <img className="header-img" src={LogoRocketNews} />
           </div>
-          <div className="text">
+          <div className="texts">
             <h1>atualize ideias e informações em 5 minutos.</h1>
             <p>
               tudo que você precisa saber para começar seu dia bem e informado
@@ -30,7 +30,7 @@ export function Home() {
           <div className="form">
             <form className="form">
               <label>Insira seu e-mail:</label>
-              <div className="row">
+              <div className="divRow">
                 <input type="text" placeholder="oi@rocketseat.com"></input>
                 <button>
                   <img src={Send} />
@@ -38,14 +38,14 @@ export function Home() {
               </div>
             </form>
           </div>
-          <div className="deixeLer">
+          <div className="letMeRead">
             <a href="#">
-              deixe-me ler primeiro <img src={arrowRight} />
+              deixe-me ler primeiro <img src={ArrowRight} />
             </a>
           </div>
         </div>
       </SecondDivContainer>
-      <img src={bgImage} alt="bgImage" className="bg-image" />
+      <img src={BgImage} alt="bgImage" className="bg-image" />
     </DivContainer>
   );
 }

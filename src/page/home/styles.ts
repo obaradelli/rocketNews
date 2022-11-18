@@ -38,7 +38,7 @@ export const SecondDivContainer = styled.div`
       height: 5.875rem;
     }
 
-    .text {
+    .texts {
       display: flex;
       flex-direction: column;
 
@@ -117,7 +117,7 @@ export const SecondDivContainer = styled.div`
       }
     }
 
-    .row {
+    .divRow {
       position: relative;
       display: flex;
       flex-direction: row;
@@ -138,7 +138,7 @@ export const SecondDivContainer = styled.div`
       }
     }
 
-    .deixeLer {
+    .letMeRead {
       a {
         cursor: pointer;
 
